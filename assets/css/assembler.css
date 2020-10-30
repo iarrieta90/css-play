@@ -147,36 +147,71 @@ body {
     }
   /* End Color Fonts Carrusel */
 
-/*Start Carousel images*/
+
+/*Start Carousel article*/
 .enter--home .section-hero .slide__content {
     white-space: normal;
-    width: 285px;
+    width: 35%;
     height: 500px;
-    background-color: #292929;
+    margin-top: 50px;
+    z-index: 1;
+
   }
   .l-section .beta {
     margin-bottom: 30px;
     color: #fff;
-    padding: 0 40px
+    padding: 0 40px;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 1.08349;
   }
 
   @media only screen and (min-width: 1000px) {
-    .enter--home .section-hero .slide {
-      height: 100%;
-      margin: 0 100px;
-      max-width: 100%;
-      width: 100%;
+    .enter--home .section-hero .slide__text {
+      max-width: 20em;
+      font-weight: 400;
+      font-size: 21px;
+      line-height: 1.381;
     }
 
-    .enter--home .section-hero .slide-1 .slide__img {
-        height: 90%;
-        width: 90%;
-        object-fit: cover;
-      }
-     
-  
+/*End Carousel article*/
+/*Start Carousel images*/
 
-  
+.enter--home .section-hero {
+    padding-top: 0;
+  }
+
+  @media only screen and (min-width: 1000px) {
+    @media (min-width: 1000px) {
+        .enter--home .section-hero .simple-carousel__items {
+          height: 750px;
+        }
+    }
+    
+    /*Slider images*/
+    .enter--home .section-hero .slide {
+      height: 100%;
+      margin: 0 auto;
+      max-width: 98.5%;
+      width: 100%;
+      background-color: rgba(0, 0, 0, 0.496);
+    }
+    
+    .enter--home .section-hero .slide .slide__img {
+        height: 90%;
+        width: 100%;
+        object-fit: cover;
+        margin: 0 auto;
+      }
+
+    /* Start Slide Filter images */
+      .slide__img{
+        filter: grayscale(90%);
+        z-index: -1;
+      }
+
+      /* End Slide Filter images */
+
   /*End Carousel images*/
   
   /* Start Btn Carrussel */
@@ -190,8 +225,8 @@ body {
     cursor: pointer;
     display: inline-block;
     font-family: inherit;
-    font-size: 14px;
-    font-weight: bold;
+    font-size: 21px;
+    font-weight: 400;
     margin: 0;
     padding: 12px 46px;
     text-transform: uppercase;
@@ -226,7 +261,7 @@ body {
     cursor: pointer;
     display: inline-block;
     font-family: inherit;
-    font-size: 14px;
+    font-size: 21px;
     font-weight: bold;
     margin: 0;
     padding: 12px 46px;
@@ -275,10 +310,7 @@ body {
     /* End div Porque usar android en tu empresa */
 
     /* Start Slide Filter images */
-    .slide__img{
-      /* filter: grayscale(90%); */
-    }
-    /* End Slide Filter images */
+   
 
     /* Start imagen Aprovecha lo mejor de Android */
     .l-section__img_{
