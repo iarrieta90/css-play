@@ -5,85 +5,84 @@
   margin: 0;
 }
 body {
-    background-color: #292929;
+  background-color: rgba(0, 0, 0, 0.87);
 }
 
 /*Main Enterprise bar*/
 
 .l-header {
-  background-color: rgba(0,0,0,0.92);
+  background-color: rgba(0, 0, 0, 0.92);
   height: 60px;
 }
 
 .c-nav [role="menuitem"].is-active {
-    color: #2997ff;
-  }
+  color: #2997ff;
+}
 
-  @media only screen and (min-width: 1000px) {
-    .l-header .c-nav--main {
-      float: right;
-    }
-    .l-header .c-nav--main [role="menubar"] {
-      margin: 0px 75px 0px 0;
-    }
+@media only screen and (min-width: 1000px) {
+  .l-header .c-nav--main {
+    float: right;
   }
+  .l-header .c-nav--main [role="menubar"] {
+    margin: 0px 75px 0px 0;
+  }
+}
 
 /*End main Enterprise bar*/
 
 /* Start Barra Enterprise Secundaria */
 .enter-subnav__brand__link {
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    font-family: "Roboto", sans-serif;
-  }
-  .u-bg-gray-light {
-    background-color: rgba(29,29,31,0.9) !important;
-  }
-  /* End Barra Enterprise Secundaria */
-  
-  /* Start Boton Empezar */
-  .enter-subnav__cta {
-    background-color: rgb(249,246,239);
-    color: #292929;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: "Roboto", sans-serif;
+}
+.u-bg-gray-light {
+  background-color: rgba(29, 29, 31, 0.9) !important;
+}
+/* End Barra Enterprise Secundaria */
 
-  }
-  .enter-subnav__cta:hover,
-  .enter-subnav__cta:focus {
+/* Start Boton Empezar */
+.enter-subnav__cta {
+  background-color: rgb(249, 246, 239);
+  color: #292929;
+}
+.enter-subnav__cta:hover,
+.enter-subnav__cta:focus {
   background: rgb(160, 159, 156);
   color: #292929;
 }
-  /* End Boton Empezar */
+/* End Boton Empezar */
 
 /* Start Primary Enterprise Navbar links */
 .c-nav [role="menuitem"] {
-    font-size: 14px;
-    font-size: 0.875rem;
-    letter-spacing: -0.56px;
-    letter-spacing: -0.035rem;
-    color: #92989b;
-    cursor: pointer;
-    display: block;
-    font-weight: normal;
-    line-height: 1.35;
-    padding: 20px;
-    text-transform: uppercase;
-  }
-  .c-nav [role="menuitem"]:active,
-  .c-nav [role="menuitem"]:focus,
-  .c-nav [role="menuitem"]:hover {
-    color: #fff;
-    text-decoration: none;
-  }
-  .c-nav--main .btn--search {
-    color: #92989b;
-    position: absolute;
-    right: 0px;
-    top: 6px;
-  }
+  font-size: 14px;
+  font-size: 0.875rem;
+  letter-spacing: -0.56px;
+  letter-spacing: -0.035rem;
+  color: #92989b;
+  cursor: pointer;
+  display: block;
+  font-weight: normal;
+  line-height: 1.35;
+  padding: 20px;
+  text-transform: uppercase;
+}
+.c-nav [role="menuitem"]:active,
+.c-nav [role="menuitem"]:focus,
+.c-nav [role="menuitem"]:hover {
+  color: #fff;
+  text-decoration: none;
+}
+.c-nav--main .btn--search {
+  color: #92989b;
+  position: absolute;
+  right: 0px;
+  top: 6px;
+}
 /* End Primary Enterprise Navbar links */
 
 /*Secondary Enterprise Navbar link colors*/
@@ -94,226 +93,427 @@ body {
 }
 
 .enter-subnav {
-    color: rgb(249,246,239);
-    font-weight: 400;
-  }
+  color: rgb(249, 246, 239);
+  font-weight: 400;
+}
 /* End Secondary Enterprise navbar link colors */
 
 /* Start Android Logo */
 
-  .logo-android__wordmark-icon {
-    color: rgb(249,246,239);
+.logo-android__wordmark-icon {
+  color: rgb(249, 246, 239);
+}
+.logo-android__andy-icon {
+  fill: rgb(249, 246, 239);
+}
+
+@media only screen and (min-width: 1000px) {
+  .l-header .logo-android {
+    height: 26px;
+    margin: 17px 30px 17px 40px;
+    width: 121px;
   }
-  .logo-android__andy-icon {
-    fill: rgb(249,246,239);
+
+  .l-header .logo-android__wordmark-icon {
+    height: 26px;
+    padding: 0;
+    width: 121px;
   }
-  
-  @media only screen and (min-width: 1000px) {
-    .l-header .logo-android {
-      height: 26px;
-      margin: 17px 30px 17px 40px;
-      width: 121px;
-    }
-    .l-header .logo-android__wordmark-icon {
-      height: 26px;
-      padding: 0;
-      width: 121px;
-    }
-    .l-header .c-toggle {
-        margin: 23px 14px 33px 20px;
-      }
+  .l-header .c-toggle {
+    margin: 23px 14px 33px 20px;
+  }
+}
 
 /*End Android Logo*/
 
-
 /* Start Background-color Page */
-  html {
-    font-size: 100%;
-    background-color: #292929;
-    background-color: #000;
-    color: #263238;
-    font-family: Roboto, Helvetica, Arial, sans-serif;
-    line-height: 1.6;
+html {
+  font-size: 100%;
+  background-color: #292929;
+  background-color: #000;
+  color: #263238;
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  line-height: 1.6;
+}
+/* End Background-color Page */
+
+/* Start Color Fonts Carrusel*/
+@media only screen and (min-width: 1000px) {
+  .text-normal {
+    font-size: 22px;
+    font-size: 1.375rem;
+    color: #fff;
+    padding: 0 40px;
   }
-  /* End Background-color Page */
-
-  /* Start Color Fonts Carrusel*/
-  @media only screen and (min-width: 1000px) {
-    .text-normal {
-      font-size: 22px;
-      font-size: 1.375rem;
-      color: #fff;
-      padding: 0 40px;
-    }
-  /* End Color Fonts Carrusel */
-
+}
+/* End Color Fonts Carrusel */
 
 /*Start Carousel article*/
 .enter--home .section-hero .slide__content {
-    white-space: normal;
-    width: 35%;
-    height: 500px;
-    margin-top: 50px;
-    z-index: 1;
+  white-space: normal;
+  width: 35%;
+  height: 500px;
+  margin-top: 50px;
+  z-index: 1;
+}
+.l-section .beta {
+  margin-bottom: 30px;
+  color: #fff;
+  padding: 0 40px;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 1.08349;
+}
 
+@media only screen and (min-width: 1000px) {
+  .enter--home .section-hero .slide__text {
+    max-width: 20em;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 1.381;
   }
-  .l-section .beta {
-    margin-bottom: 30px;
-    color: #fff;
-    padding: 0 40px;
-    font-size: 48px;
-    font-weight: 600;
-    line-height: 1.08349;
-  }
-
-  @media only screen and (min-width: 1000px) {
-    .enter--home .section-hero .slide__text {
-      max-width: 20em;
-      font-weight: 400;
-      font-size: 21px;
-      line-height: 1.381;
-    }
+}
 
 /*End Carousel article*/
 /*Start Carousel images*/
 
 .enter--home .section-hero {
-    padding-top: 0;
-  }
+  padding-top: 0;
+}
 
-  @media only screen and (min-width: 1000px) {
-    @media (min-width: 1000px) {
-        .enter--home .section-hero .simple-carousel__items {
-          height: 750px;
-        }
+@media only screen and (min-width: 1000px) {
+  @media (min-width: 1000px) {
+    .enter--home .section-hero .simple-carousel__items {
+      height: 750px;
     }
-    
-    /*Slider images*/
-    .enter--home .section-hero .slide {
-      height: 100%;
-      margin: 0 auto;
-      max-width: 98.5%;
-      width: 100%;
-      background-color: rgba(0, 0, 0, 0.496);
-    }
-    
-    .enter--home .section-hero .slide .slide__img {
-        height: 90%;
-        width: 100%;
-        object-fit: cover;
-        margin: 0 auto;
-      }
-
-    /* Start Slide Filter images */
-      .slide__img{
-        filter: grayscale(90%);
-        z-index: -1;
-      }
-
-      /* End Slide Filter images */
-
-  /*End Carousel images*/
-  
-  /* Start Btn Carrussel */
-  .btn {
-    -moz-osx-font-smoothing: grayscale;
-    -webkit-font-smoothing: antialiased;
-    background-color: transparent;
-    /* border: 2px solid #2997ff; */
-    border-radius: 5px;
-    color: #1e63a3;
-    cursor: pointer;
-    display: inline-block;
-    font-family: inherit;
-    font-size: 21px;
-    font-weight: 400;
-    margin: 0;
-    padding: 12px 46px;
-    text-transform: uppercase;
-    -webkit-transition: all 100ms cubic-bezier(0.25, 0.1, 0.25, 1);
-    transition: all 100ms cubic-bezier(0.25, 0.1, 0.25, 1);
-    white-space: nowrap;
   }
-  .btn:hover,
-  .btn:focus {
-    color: #2997ff;
-    text-decoration: none;
+}
+
+/*Slider images*/
+.enter--home .section-hero .slide {
+  height: 100%;
+  margin: 0 auto;
+  max-width: 98.5%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.496);
+}
+
+.enter--home .section-hero .slide .slide__img {
+  height: 90%;
+  width: 100%;
+  object-fit: cover;
+  margin: 0 auto;
+}
+
+/* Start Slide Filter images */
+.slide__img {
+  filter: grayscale(90%);
+  z-index: -1;
+}
+
+/* End Slide Filter images */
+
+/*End Carousel images*/
+
+/* Start Btn Carrussel */
+.btn {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  background-color: transparent;
+  /* border: 2px solid #2997ff; */
+  border-radius: 5px;
+  color: #1e63a3;
+  cursor: pointer;
+  display: inline-block;
+  font-family: inherit;
+  font-size: 21px;
+  font-weight: 400;
+  margin: 0;
+  padding: 12px 46px;
+  text-transform: uppercase;
+  -webkit-transition: all 100ms cubic-bezier(0.25, 0.1, 0.25, 1);
+  transition: all 100ms cubic-bezier(0.25, 0.1, 0.25, 1);
+  white-space: nowrap;
+}
+.btn:hover,
+.btn:focus {
+  color: #2997ff;
+  text-decoration: none;
+}
+[aria-selected="true"] .c-pager__item-link {
+  background-color: #1e63a3;
+}
+/* End Btn Carrussel */
+
+/* Start H1.H2 Area */
+.prose__title,
+.mobile-gamma {
+  color: #fff;
+}
+/* End H1, H2 Area */
+
+/* Start Btn Final Area */
+.btn {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  background-color: transparent;
+  /* border: 2px solid; */
+  border-radius: 5px;
+  color: #1e63a3;
+  cursor: pointer;
+  display: inline-block;
+  font-family: inherit;
+  font-size: 21px;
+  font-weight: bold;
+  margin: 0;
+  padding: 12px 46px;
+  text-transform: uppercase;
+  -webkit-transition: all 100ms cubic-bezier(0.25, 0.1, 0.25, 1);
+  transition: all 100ms cubic-bezier(0.25, 0.1, 0.25, 1);
+  white-space: nowrap;
+  border: none;
+}
+.btn:hover,
+.btn:focus {
+  border-color: #2997ff;
+  color: #2997ff;
+  text-decoration: none;
+}
+/* End Btn Final Area */
+
+/*Start Footer Area */
+@media only screen and (min-width: 1000px) {
+  .l-footer .c-nav--main {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 42px 36px;
+    background-color: #202020;
   }
-  [aria-selected="true"] .c-pager__item-link {
-    background-color: #1e63a3;
+}
+
+.l-footer__metadata {
+  background-color: #151515;
+  color: #fff;
+  font-weight: 300;
+  padding: 20px;
+}
+/* End Footer Area */
+
+/* Start div Porque usar android en tu empresa */
+@media only screen and (min-width: 1000px) {
+  .l-section__intro,
+  .l-section__text {
+    padding: 40px 100px;
+    background-color: rgba(29, 29, 30, 0.7);
+    border-radius: 2px;
   }
-  /* End Btn Carrussel */
+}
+/* End div Porque usar android en tu empresa */
 
-  /* Start H1.H2 Area */
-  .prose__title, .mobile-gamma{
-    color: #fff;
+/* Start Slide Filter images */
+
+/* Start Aprovecha lo mejor de Android */
+
+.enterprise .ls-section--os .cascade-text {
+  max-width: 100%;
+}
+
+.image-text-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+@media only screen and (min-width: 1000px) {
+  .enterprise .ls-section--os .l-section__media-wrapper {
+    display: flex;
+    justify-content: center;
   }
-  /* End H1, H2 Area */
+}
 
-  /* Start Btn Final Area */
-  .btn {
-    -moz-osx-font-smoothing: grayscale;
-    -webkit-font-smoothing: antialiased;
-    background-color: transparent;
-    /* border: 2px solid; */
-    border-radius: 5px #1e63a3;
-    color: #1e63a3;
-    cursor: pointer;
-    display: inline-block;
-    font-family: inherit;
-    font-size: 21px;
-    font-weight: bold;
-    margin: 0;
-    padding: 12px 46px;
-    text-transform: uppercase;
-    -webkit-transition: all 100ms cubic-bezier(0.25, 0.1, 0.25, 1);
-    transition: all 100ms cubic-bezier(0.25, 0.1, 0.25, 1);
-    white-space: nowrap;
+/* End Aprovecha lo mejor de Android */
+
+/*Start "Un sistema de gestión completo e innovador"*/
+@media only screen and (min-width: 1000px) {
+  .enterprise .ls-section--os .grid {
+    margin-left: 0;
+    display: flex;
   }
-  .btn:hover,
-  .btn:focus {
-    border-color: #2997ff;
-    color: #2997ff;
-    text-decoration: none;
-  }
-  /* End Btn Final Area */
+}
+/*End "Un sistema de gestión completo e innovador"*/
 
-  /*Start Footer Area */
-  @media only screen and (min-width: 1000px) {
-    .l-footer .c-nav--main {
-      -webkit-box-align: center;
-      -ms-flex-align: center;
-      align-items: center;
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      padding: 42px 36px;
-      background-color: #202020;
-    }
+/*Start "Dispositivos para todo tipo de empresas*/
+.o-container .transparent_background {
+  background-color: transparent;
+  text-align: start;
+  margin: 0;
+}
 
-    .l-footer__metadata {
-        background-color: #151515;
-        color: #fff;
-        font-weight: 300;
-        padding: 20px;
-      }
-    /* End Footer Area */
-    
-    /* Start div Porque usar android en tu empresa */
-    @media only screen and (min-width: 1000px) {
-        .l-section__intro, .l-section__text {
-          padding: 40px 100px;
-          background-color: rgba(29,29,30,0.7);
-          border-radius: 2px;
-        }
-      }
-    /* End div Porque usar android en tu empresa */
+.l-section__intro h1,
+.l-section__intro h2 {
+  padding: 0 40px;
+}
+/*End "Dispositivos para todo tipo de empresas*/
 
-    /* Start Slide Filter images */
-   
+/* Start H1 index.html */
+.text-large {
+  color: #fff;
+  font-weight: 700;
+}
+/* End H1 index.html */
 
-    /* Start imagen Aprovecha lo mejor de Android */
-    .l-section__img_{
+/* Start menú index.html */
+.c-tabs-nav__item.is-active .c-tabs-nav__link {
+  color: #2997ff;
+}
 
-    }
-    /* End imagen Aprovecha lo mejor de Android */
+.c-tabs-nav__indicator {
+  background: #2997ff;
+  bottom: 0;
+  display: block;
+  height: 4px;
+  left: 0;
+  position: absolute;
+  -webkit-transition: left, width;
+  transition: left, width;
+  -webkit-transition-duration: 300ms;
+  transition-duration: 300ms;
+  -webkit-transition-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1);
+  transition-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1);
+}
+/* End menú index.html */
+
+/* Start Name Phones index.html */
+a,
+.link {
+  color: #2997ff;
+  cursor: pointer;
+  text-decoration: none;
+  -webkit-transition: all 100ms cubic-bezier(0.25, 0.1, 0.25, 1);
+  transition: all 100ms cubic-bezier(0.25, 0.1, 0.25, 1);
+}
+/* End Name Phones index.html */
+
+/*Start index slider*/
+
+.hero-carousel__header:first-child .hero-carousel__title {
+  color: white;
+  font-size: 55px;
+  line-height: 1.08349;
+  font-weight: 600;
+  letter-spacing: -0.003em;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica",
+    "Arial", sans-serif;
+  padding-top: 100px;
+}
+
+.hero-carousel__body-content span {
+  color: white;
+  font-size: 28px;
+  line-height: 1.381;
+  font-weight: 400;
+  letter-spacing: 0.011em;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica",
+    "Arial", sans-serif;
+  margin-top: 25px;
+}
+
+/*End index slider*/
+
+/*Start index background colors*/
+
+.u-bg-white {
+  background-color: rgba(0, 0, 0, 0.87) !important;
+}
+
+.u-bg-gray {
+  background-color: rgba(0, 0, 0, 0.87) !important;
+}
+
+.u-bg-gray-light {
+  background-color: rgba(0, 0, 0, 0.87) !important;
+}
+
+.l-section--has-diagonal-top-gray-light::before {
+  background: rgba(0, 0, 0, 0.87);
+}
+
+.l-section--has-diagonal-bottom-gray-light::after {
+  background: rgba(0, 0, 0, 0.87);
+}
+
+/*End index background colors*/
+
+.index-slider1 {
+  margin: 100px 0 0 0;
+}
+
+.btn--blue.btn--full {
+  margin-top: 50px;
+  background: #2997ff;
+  border-radius: 18px;
+}
+
+.desktop--one-third, .desktop--two-sixths, .desktop--four-twelfths {
+  width: 60%;
+}
+
+.l-section__intro, .l-section__text {
+  padding: 40px 50px;
+}
+
+/*Start phones background color*/
+
+.u-bg-gray-medium-gradient {
+  background: rgba(0, 0, 0, 0.87) !important;
+}
+/*End phones background color*/
+
+
+/*No background for text areas*/
+.l-section__intro,
+.l-section__text {
+  background-color: rgba(0, 0, 0, 0.87);
+}
+/*-------------------------------*/
+
+
+
+/*Start phones main text*/
+.l-section__intro h1,
+.l-section__intro h2 {
+  color: white;
+  font-size: 55px;
+  line-height: 1.08349;
+  font-weight: 600;
+  letter-spacing: -0.003em;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica",
+    "Arial", sans-serif;
+  padding-top: 100px;
+}
+
+.l-section__intro p {
+  color: white;
+  font-size: 28px;
+  line-height: 1.381;
+  font-weight: 400;
+  letter-spacing: 0.011em;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica",
+    "Arial", sans-serif;
+  margin-top: 25px;
+}
+/*End phones main text*/
+
+
+body.index .c-tabs-content__slide {
+  padding-top: 100px;
+}
+
+.desktop--one-third, .desktop--two-sixths, .desktop--four-twelfths {
+  width: 40%;
+}
