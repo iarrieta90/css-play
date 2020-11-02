@@ -81,7 +81,7 @@ body {
   color: #92989b;
   position: absolute;
   right: 0px;
-  top: 6px;
+  top: 0px;
 }
 /* End Primary Enterprise Navbar links */
 
@@ -399,8 +399,7 @@ a,
 }
 /* End Name Phones index.html */
 
-/*Start index slider*/
-
+/*Start index.html slider texts*/
 .hero-carousel__header:first-child .hero-carousel__title {
   color: white;
   font-size: 55px;
@@ -411,7 +410,6 @@ a,
     "Arial", sans-serif;
   padding-top: 100px;
 }
-
 .hero-carousel__body-content span {
   color: white;
   font-size: 28px;
@@ -422,53 +420,51 @@ a,
     "Arial", sans-serif;
   margin-top: 25px;
 }
-
-/*End index slider*/
-
-/*Start index background colors*/
-
-.u-bg-white {
-  background-color: rgba(0, 0, 0, 0.87) !important;
-}
-
-.u-bg-gray {
-  background-color: rgba(0, 0, 0, 0.87) !important;
-}
-
-.u-bg-gray-light {
-  background-color: rgba(0, 0, 0, 0.87) !important;
-}
-
-.l-section--has-diagonal-top-gray-light::before {
-  background: rgba(0, 0, 0, 0.87);
-}
-
-.l-section--has-diagonal-bottom-gray-light::after {
-  background: rgba(0, 0, 0, 0.87);
-}
-
-/*End index background colors*/
-
 .index-slider1 {
   margin: 100px 0 0 0;
 }
-
 .btn--blue.btn--full {
   margin-top: 50px;
   background: #2997ff;
   border-radius: 18px;
 }
+/*End index.html slider texts*/
 
-.desktop--one-third, .desktop--two-sixths, .desktop--four-twelfths {
-  width: 60%;
+/*Start index.html background colors*/
+.u-bg-white {
+  background-color: rgba(0, 0, 0, 0.87) !important;
 }
+.u-bg-gray {
+  background-color: rgba(0, 0, 0, 0.87) !important;
+}
+.u-bg-gray-light {
+  background-color: rgba(0, 0, 0, 0.87) !important;
+}
+.l-section--has-diagonal-top-gray-light::before {
+  background: rgba(0, 0, 0, 0.87);
+}
+.l-section--has-diagonal-bottom-gray-light::after {
+  background: rgba(0, 0, 0, 0.87);
+}
+/*End index.html background colors*/
+
+/*Start text and images section (both index and phone)*/
 
 .l-section__intro, .l-section__text {
   padding: 40px 50px;
 }
 
-/*Start phones background color*/
+body.index .c-tabs-content__slide {
+  padding-top: 100px;
+}
 
+.desktop--one-third, .desktop--two-sixths, .desktop--four-twelfths {
+  width: 40%;
+}
+/*End text and images section*/
+
+
+/*Start phones background color*/
 .u-bg-gray-medium-gradient {
   background: rgba(0, 0, 0, 0.87) !important;
 }
@@ -510,10 +506,4 @@ a,
 /*End phones main text*/
 
 
-body.index .c-tabs-content__slide {
-  padding-top: 100px;
-}
 
-.desktop--one-third, .desktop--two-sixths, .desktop--four-twelfths {
-  width: 40%;
-}
